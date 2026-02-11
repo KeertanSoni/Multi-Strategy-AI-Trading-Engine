@@ -2,7 +2,7 @@
 
 This repository contains an advanced quantitative trading platform that utilizes a multi-model approach to execute **Pairs Trading strategies**. By analyzing the spread between highly correlated banking stocks, the engine generates actionable Buy, Sell, and Hold signals using a combination of traditional time-series analysis and modern artificial intelligence.
 
-## 🚀 Key Features
+##  Key Features
 
 * **Statistical Foundation**: Automates stationarity testing using the **Augmented Dickey-Fuller (ADF)** test and implements **SARIMA** models with AIC-based hyperparameter tuning.
 * **Ensemble Learning (XGBoost)**: A classification engine that integrates technical indicators like **RSI, MACD, and Bollinger Bands** to predict spread movements.
@@ -12,7 +12,7 @@ This repository contains an advanced quantitative trading platform that utilizes
 
 
 
-## 📊 Model Comparison
+##  Model Comparison
 
 | Feature | SARIMA Model | XGBoost Classifier | LSTM Model |
 | :--- | :--- | :--- | :--- |
@@ -21,7 +21,7 @@ This repository contains an advanced quantitative trading platform that utilizes
 | **Optimization** | AIC-based Grid Search | GridSearchCV (Max Depth, Learning Rate) | Dropout Layers & Adam Optimizer |
 | **Output Type** | Predicted Spread Value | Categorical Signal (Buy/Hold/Sell) | Categorical Signal (Buy/Hold/Sell) |
 
-## 🛠️ Technical Implementation
+##  Technical Implementation
 
 ### 1. Data Processing & Feature Engineering
 * **Spread Calculation**: Computes the price difference between selected banking pairs (e.g., ICICI vs Axis).
@@ -40,7 +40,7 @@ This repository contains an advanced quantitative trading platform that utilizes
 
 
 
-## 💻 Installation & Usage
+##  Installation & Usage
 
 1. **Clone the repository**:
 ```bash
